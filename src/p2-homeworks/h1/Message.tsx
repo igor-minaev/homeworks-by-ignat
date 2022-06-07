@@ -9,12 +9,12 @@ export type MessageType = {
 }
 function Message(props:MessageType) {
     return (
-        <div className={cssForMessage.wrapper}>
-            <img className={cssForMessage.avatar} src={props.avatar} alt=""/>
-            <div>
-                <h3>{props.name}</h3>
-                <p>{props.message}</p>
-                <p>{props.time}</p>
+        <div className={cssForMessage.message}>
+            <img className={cssForMessage.messageAvatar} src={props.avatar} alt=""/>
+            <div className={cssForMessage.messageContent}>
+                <h3 className={cssForMessage.messageName}>{props.name}</h3>
+                <p className={cssForMessage.messageText}>{props.message}</p>
+                <p className={cssForMessage.messageTime}>{props.time}</p>
             </div>
         </div>
     )
