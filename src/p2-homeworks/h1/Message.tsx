@@ -7,7 +7,8 @@ export type MessageType = {
     message: string
     time: string
 }
-function Message(props:MessageType) {
+
+function Message(props: MessageType) {
     return (
         <div className={cssForMessage.message}>
             <img className={cssForMessage.messageAvatar} src={props.avatar} alt=""/>

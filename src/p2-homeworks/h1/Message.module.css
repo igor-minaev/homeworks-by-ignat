@@ -37,20 +37,20 @@
 }
 
 .messageName {
-    color:#8681a7;
+    color: #8681a7;
     font-size: 15px;
     margin: 0;
     margin-bottom: 3px;
 }
 
 .messageText {
-    color:#fff;
+    color: #fff;
     font-size: 15px;
     margin: 0;
 }
 
 .messageTime {
-    position:absolute;
+    position: absolute;
     left: 200px;
     bottom: 5px;
     margin: 0;
