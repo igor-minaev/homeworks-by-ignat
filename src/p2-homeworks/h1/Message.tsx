@@ -1,14 +1,21 @@
 import React from 'react'
-type MessageType = {
+import cssForMessage from './Message.module.css'
+
+export type MessageType = {
     avatar: string
     name: string
     message: string
     time: string
 }
-function Message() {
+function Message(props:MessageType) {
     return (
-        <div>
-            <img src="" alt=""/>
+        <div className={cssForMessage.wrapper}>
+            <img className={cssForMessage.avatar} src={props.avatar} alt=""/>
+            <div>
+                <h3>{props.name}</h3>
+                <p>{props.message}</p>
+                <p>{props.time}</p>
+            </div>
         </div>
     )
 }

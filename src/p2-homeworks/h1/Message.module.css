@@ -1,3 +1,12 @@
-.message {
+.wrapper {
+    width: 250px;
+    display: flex;
+    background-color: #a8e700;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 
 }
