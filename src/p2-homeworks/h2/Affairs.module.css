@@ -1,3 +1,36 @@
-.someClass {
+.wrapper {
+    width: 350px;
+    margin: 15px;
+
 
 }
+
+.affair {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.item {
+    width: 100px;
+}
+
+.filter {
+    margin: 0 8px;
+    width: 70px;
+}
+
+.button {
+    background-color: #607e14;
+    border: 2px solid #043304;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: #f13333;
+}
+
+
+
